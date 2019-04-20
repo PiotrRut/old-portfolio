@@ -8,11 +8,11 @@ import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 
-const Landing = (props) => (
+const Projects = (props) => (
     <Layout>
         <Helmet>
-            <title>Landing - Forty by HTML5 UP</title>
-            <meta name="description" content="Landing Page" />
+            <title>My Projects</title>
+            <meta name="description" content="Projects Page" />
         </Helmet>
 
         <ProjectsBanner />
@@ -21,24 +21,28 @@ const Landing = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h2>Sed amet aliquam</h2>
+                        <h2>Welcome to my projects page!</h2>
                     </header>
-                    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+                    <p>Here you will find a selection of some of the programming projects that I've made in the past, along with
+                    descriptions and my own thoughts and reflections on them. There are also links to GitHub repositories for all
+                    of the projects, where you can look throught the code, read the readme or even run the code yourself
+                    to see how it works.</p>
                 </div>
             </section>
             <section id="two" className="spotlights">
                 <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic08} alt="" />
-                    </Link>
+                  <Link to="/generic" className="image">
+                      <img src={pic08} alt="" />
+                  </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Orci maecenas</h3>
+                                <h3>City Engine Game</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>A simple 2D game written in Java using a wrapper to the JBOX2D engine provided by City, University of London. It is a simple Mario-like game, where the objective is to collect the coins, avoid enemies and obstacles, and progress to next levels.</p>
+                            <p>You can find a link to the GitHub repository down below, along with a JavaDoc documentation for the code, and a brief description of the functions of the game.</p>
                             <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
+                                <li><a href="https://github.com/PiotrRut/CityEngineGame" className="button">View on GitHub</a></li>
                             </ul>
                         </div>
                     </div>
@@ -81,4 +85,4 @@ const Landing = (props) => (
     </Layout>
 )
 
-export default Landing
+export default Projects
