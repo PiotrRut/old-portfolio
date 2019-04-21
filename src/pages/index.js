@@ -66,7 +66,7 @@ class HomeIndex extends React.Component {
                             </header>
                             <p>I have no idea what I wanna write here :))</p>
                             <ul className="actions">
-                                <li><Link to="/landing" className="button next">A button lol</Link></li>
+                                <li><Link to="/" className="button next">A button lol</Link></li>
                             </ul>
                         </div>
                     </section>

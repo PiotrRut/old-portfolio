@@ -37,7 +37,7 @@ const Projects = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>City Engine Game</h3>
+                                <h3>CityEngine Game</h3>
                             </header>
                             <p>A simple 2D game written in Java using a wrapper to the JBOX2D engine provided by City, University of London. It is a simple Mario-like game, where the objective is to collect the coins, avoid enemies and obstacles, and progress to next levels.</p>
                             <p>You can find a link to the GitHub repository down below, along with a JavaDoc documentation for the code, and a brief description of the functions of the game.</p>
