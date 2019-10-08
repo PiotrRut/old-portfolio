@@ -48,22 +48,19 @@
 			> .content {
 				@include vendor('display', 'flex');
 				@include vendor('flex-direction', 'column');
-				@include vendor('justify-content', 'center');
 				@include vendor('align-items', 'center');
-				@include padding(2em, 3em);
+				@include padding(1em, 3em);
 				width: auto;
 
 				> .inner {
-					margin: auto;
-					max-width: 100%;
-					width: _size(inner);
+					margin: 0 auto;
+					max-width: _size(inner);
+					width: calc(100% - 6em);
 				}
 			}
 
 			&:nth-child(2n) {
-				@include vendor('flex-direction', 'row-reverse');
 				background-color: desaturate(lighten(_palette(bg-alt), 4), 2);
-
 				> .content {
 					@include vendor('align-items', 'flex-end');
 				}

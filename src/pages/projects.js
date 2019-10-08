@@ -4,9 +4,6 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import ProjectsBanner from '../components/ProjectsBanner'
 
-import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
 
 const Projects = (props) => (
     <Layout>
@@ -14,9 +11,7 @@ const Projects = (props) => (
             <title>My Projects</title>
             <meta name="description" content="Projects Page" />
         </Helmet>
-
         <ProjectsBanner />
-
         <div id="main">
             <section id="one">
                 <div className="inner">
@@ -25,15 +20,12 @@ const Projects = (props) => (
                     </header>
                     <p>Here you will find a selection of some of the programming projects that I've made in the past, along with
                     descriptions and my own thoughts and reflections on them. There are also links to GitHub repositories for all
-                    of the projects, where you can look throught the code, read the readme or even run the code yourself
+                    of the projects, where you can look throught the code, read the information or even run the code yourself
                     to see how it works.</p>
                 </div>
             </section>
             <section id="two" className="spotlights">
                 <section>
-                  <Link to="/generic" className="image">
-                      <img src={pic08} alt="" />
-                  </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -47,38 +39,7 @@ const Projects = (props) => (
                         </div>
                     </div>
                 </section>
-                <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic09} alt="" />
-                    </Link>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Rhoncus magna</h3>
-                            </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic10} alt="" />
-                    </Link>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Sed nunc ligula</h3>
-                            </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
+                                                        // next projects
             </section>
         </div>
 
