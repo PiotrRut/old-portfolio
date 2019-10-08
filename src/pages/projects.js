@@ -45,7 +45,7 @@ const Projects = (props) => (
                             <header className="major">
                                 <h3>Personal website</h3>
                             </header>
-                            <p>The website you are currently visiting! It doubles as a portfolio for my programming projects and the photographs taken by me. </p>
+                            <p>The website you are currently visiting! It doubles as a portfolio for my programming projects and the photographs taken by me. Feel free to look around!</p>
                             <p>It is written using React and Gatsby, with Netlify being responsible for the hosting. For more information about how its made, visit its GitHub repository.</p>
                             <ul className="actions">
                                 <li><a href="https://github.com/PiotrRut/piotr-rutkowski.com" className="button">View on GitHub</a></li>
