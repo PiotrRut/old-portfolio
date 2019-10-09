@@ -31,8 +31,11 @@ const Projects = (props) => (
                             <header className="major">
                                 <h3>CityEngine Game</h3>
                             </header>
-                            <p>A simple 2D game written in Java using a wrapper to the JBOX2D engine provided by City, University of London. It is a simple Mario-like game, where the objective is to collect the coins, avoid enemies and obstacles, and progress to next levels.</p>
-                            <p>You can find a link to the GitHub repository down below, along with a JavaDoc documentation for the code, and a brief description of the functions of the game.</p>
+                            <p>A simple 2D game written in Java using a wrapper to the JBOX2D engine provided by City, University of London.
+                             It is a simple Mario-like game, where the objective is to collect the coins, avoid enemies and obstacles,
+                             and progress to next levels.</p>
+                            <p>You can find a link to the GitHub repository down below, along with a JavaDoc documentation for the code,
+                            and a brief description of the functions of the game.</p>
                             <ul className="actions">
                                 <li><a href="https://github.com/PiotrRut/CityEngineGame" className="button">View on GitHub</a></li>
                             </ul>
@@ -45,10 +48,31 @@ const Projects = (props) => (
                             <header className="major">
                                 <h3>Personal website</h3>
                             </header>
-                            <p>The website you are currently visiting! It doubles as a portfolio for my programming projects and the photographs taken by me. Feel free to look around!</p>
-                            <p>It is written using React and Gatsby, with Netlify being responsible for the hosting. For more information about how its made, visit its GitHub repository.</p>
+                            <p>The website you are currently visiting! It doubles as a portfolio for my programming projects and the photographs taken by me.
+                            Feel free to look around!</p>
+                            <p>It is written using React and Gatsby, with Netlify being responsible for the hosting. For more information about how its made,
+                            visit its GitHub repository.</p>
                             <ul className="actions">
                                 <li><a href="https://github.com/PiotrRut/piotr-rutkowski.com" className="button">View on GitHub</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Golden Clouds Website</h3>
+                            </header>
+                            <p>Golden Clouds is my submission for the 1st Year final project in the Business Systems module at City, University of London.
+                            Our task was to make a fully functional database-driven website. This particular project is a website for a tanning studio, where users can register
+                            and make an account, check available time slots for available appointments, book them and contact the studio directly using the form provided on this website</p>
+                            <p>For this particular project I have developed both the fron tend, built on ReactJS, as well as a back end for handling requests, where I used
+                            MongoDB as my database, and based everything on NodeJS and the Express.js server framework For that reason there are two repositories available for this project
+                            on my GitHub. Both are linked down below</p>
+                            <ul className="actions">
+                                <li><a href="https://github.com/PiotrRut/Golden-Clouds-Frontend" className="button">Front end (GitHub)</a></li>
+                                <li><a href="https://github.com/PiotrRut/Golden-Clouds-Backend" className="button">Back end (GitHub)</a></li>
                             </ul>
                         </div>
                     </div>
