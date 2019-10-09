@@ -10,7 +10,7 @@ const Footer = (props) => (
                 <li><a href="https://linkedin.com/in/piotr-rutkowski-7082a917a/" className="icon fa-linkedin"><span className="label">My LinkedIn</span></a></li>
             </ul>
             <ul className="copyright">
-                <li>&copy; 2019 Peter Rutkowski</li>
+                <li>&copy; {new Date().getFullYear()} Peter Rutkowski</li>
             </ul>
         </div>
     </footer>

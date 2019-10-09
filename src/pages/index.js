@@ -64,9 +64,9 @@ class HomeIndex extends React.Component {
                             <header className="major">
                                 <h2>Placeholder</h2>
                             </header>
-                            <p>I have no idea what I wanna write here :))</p>
+                            <p>Placeholder</p>
                             <ul className="actions">
-                                <li><Link to="/landing" className="button next">A button lol</Link></li>
+                                <li><Link to="/404" className="button next">Placeholder</Link></li>
                             </ul>
                         </div>
                     </section>
