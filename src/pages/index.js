@@ -57,9 +57,9 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/artgallery" className="link primary"></Link>
                         </article>
-
                     </section>
-                    <section id="two">
+
+                  {/*  <section id="two">
                         <div className="inner">
                             <header className="major">
                                 <h2>Placeholder</h2>
@@ -69,7 +69,8 @@ class HomeIndex extends React.Component {
                                 <li><Link to="/404" className="button next">Placeholder</Link></li>
                             </ul>
                         </div>
-                    </section>
+                    </section> */}
+
                 </div>
 
             </Layout>

@@ -69,7 +69,7 @@ const Projects = (props) => (
                             and make an account, check available time slots for available appointments, book them and contact the studio directly using the form provided on this website</p>
                             <p>For this particular project I have developed both the fron tend, built on ReactJS, as well as a back end for handling requests, where I used
                             MongoDB as my database, and based everything on NodeJS and the Express.js server framework For that reason there are two repositories available for this project
-                            on my GitHub. Both are linked down below</p>
+                            on my GitHub. Both are linked down below.</p>
                             <ul className="actions">
                                 <li><a href="https://github.com/PiotrRut/Golden-Clouds-Frontend" className="button">Front end (GitHub)</a></li>
                                 <li><a href="https://github.com/PiotrRut/Golden-Clouds-Backend" className="button">Back end (GitHub)</a></li>
