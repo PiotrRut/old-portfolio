@@ -9,7 +9,7 @@ Once on the website, others can read some basic information about me, read my bl
 * SCSS for styling
 
 ## Future plans
-In the works is currently a NodeJS back end for the website, which will make it possible for me to pull all my GitHub projects automatically to the website using the GitHub API, and have them automatically refresh in set time intervals. I will also implement a MongoDB database for storing information about the repositories, as well as storing photographs that I will have uploaded.
+In the works is currently a function that will display all my active repository along with links and description on the website using the GitHub API, as well as a gallery with photographs that I have taken over the years.
 
 Visitors to the website will also have the possibility to filter both GitHub projects and the photographs by approporiate filters. Search by keywords will be made available, like searching for "London", "January" or "city" on the photographs page will return photograps marked with those keywords, that is photographs taken in the specific location, on the specific date/time/month/year, or containing the object(s) searched for. GitHub projects will be searchable by programming language(s) used, or by project name.
 
