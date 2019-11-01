@@ -77,6 +77,23 @@ const Projects = (props) => (
                         </div>
                     </div>
                 </section>
+                <section>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>iOS Stopwatch App</h3>
+                            </header>
+                            <p>A very simple app I wrote in Swift, as one of my first iOS projects. It is a clean stopwatch app that lets you start and pause a timer, and relies on Apple
+                            provided NSTimer interface. This app is meant to be a little fun side project for me to practice Swift, and is not intended for the AppStore.
+                            There is haptic feedback inmplemented on each button that is activated when the button is pressed, as well as haptic feedback to indicate every minute passed.</p>
+                            <p>It is compatible with all iPhone models running iOS version 11 or newer.</p>
+                            <ul className="actions">
+                                <li><a href="https://github.com/PiotrRut/iOS-Stopwatch-App" className="button">View on GitHub</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </section>
             </section>
         </div>
 
