@@ -2,7 +2,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a9571ff7-1655-49c0-accf-16fde0d8d8d2/deploy-status)](https://app.netlify.com/sites/p-rut/deploys)
 
 My personal website, that doubles as my online portfolio.
-Once on the website, others can read some basic information about me, read my blog (updated from time to time) and view my GitHub projects, as well as browse some of the photographs I have taken.
+Once on the website, others can read some basic information about me, read my blog (updated from time to time), and view my GitHub projects, as well as browse some of the photographs I have taken.
 
 ## Frameworks, languages and libraries used
 * ReactJS and GatsbyJS at the front end

@@ -55,7 +55,7 @@ class HomeIndex extends React.Component {
                                 <h3>Art gallery</h3>
                                 <p>See some of my favourite shots done by me</p>
                             </header>
-                            <Link to="/artgallery" className="link primary"></Link>
+                            <Link to="/gallery" className="link primary"></Link>
                         </article>
                     </section>
 
