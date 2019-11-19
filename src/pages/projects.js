@@ -164,6 +164,8 @@ const Projects = props => (
             </div>
           </div>
         </section>
+        <div className="grid-wrapper">
+        </div>
       </section>
     </div>
   </Layout>
