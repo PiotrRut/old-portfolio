@@ -2,7 +2,9 @@ import React from 'react'
 import Layout from '../components/layout'
 import Link from 'gatsby-link'
 
-const Blog = () => (
+class Blog extends React.Component {
+render() {
+  return (
   <Layout>
     <div id="main" className="alt">
       <section id="one">
@@ -28,6 +30,7 @@ const Blog = () => (
       </section>
     </div>
   </Layout>
-)
-
+    )
+  }
+}
 export default Blog
