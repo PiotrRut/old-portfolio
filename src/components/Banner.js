@@ -8,7 +8,7 @@ const Banner = (props) => (
                 <h1>Hi, my name is Piotr</h1>
             </header>
             <div className="content">
-                <p>Welcome to my personal website! Scroll down and discover more about me. </p>
+                <p>Welcome to my website! Scroll down and discover more about me. </p>
                 <ul className="actions">
                     <li><button onClick={() => scrollTo('#one')}>Get Started</button></li>
                 </ul>
