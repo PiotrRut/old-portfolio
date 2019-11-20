@@ -26,6 +26,7 @@ module.exports = {
             name: 'blogposts'
         }
     },
-    'gatsby-transformer-remark'
+    'gatsby-transformer-remark',
+    'gatsby-plugin-smoothscroll'
   ],
 }
