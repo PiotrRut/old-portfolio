@@ -111,22 +111,10 @@ const Projects = props => (
                 Both are linked down below.
               </p>
               <ul className="actions">
-                <li>
-                  <a
-                    href="https://github.com/PiotrRut/Golden-Clouds-Frontend"
-                    className="button"
-                  >
-                    Front end (GitHub)
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://github.com/PiotrRut/Golden-Clouds-Backend"
-                    className="button"
-                  >
-                    Back end (GitHub)
-                  </a>
-                </li>
+                  <li><a href="https://github.com/PiotrRut/Golden-Clouds-Frontend"
+                   className="button">Front end</a></li>
+                  <li><a href="https://github.com/PiotrRut/Golden-Clouds-Backend"
+                   className="button">Back end</a></li>
               </ul>
             </div>
           </div>

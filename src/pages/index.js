@@ -5,11 +5,10 @@ import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
 import qcCp9QNURpuz15jBSRoKSA_thumb_8f from '../assets/images/qcCp9QNURpuz15jBSRoKSA_thumb_8f.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
-import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
+import projects_background from '../assets/images/projects_background.jpg'
+import blog_bg from '../assets/images/blog_bg.jpg'
+
 
 class HomeIndex extends React.Component {
     render() {
@@ -36,14 +35,14 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/aboutme" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
+                        <article style={{backgroundImage: `url(${projects_background})`}}>
                             <header className="major">
                                 <h3>Projects</h3>
                                 <p>See some of my programming projects and go in depth with them</p>
                             </header>
                             <Link to="/projects" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
+                        <article style={{backgroundImage: `url(${blog_bg})`}}>
                             <header className="major">
                                 <h3>Blog</h3>
                                 <p>Read what's on my mind</p>
