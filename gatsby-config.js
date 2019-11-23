@@ -26,6 +26,27 @@ module.exports = {
             name: 'blogposts'
         }
     },
+    {
+      resolve: 'gatsby-remark-prismjs',
+      options: {
+        classPrefix: "language-",
+        noInlineHighlight: false,
+        languageExtensions: [
+              {
+                language: "superscript",
+                extend: "javascript",
+                definition: {
+                  superscript_types: /(SuperType)/,
+                },
+                insertBefore: {
+                  function: {
+                    superscript_keywords: /(superif|superelse)/,
+                  },
+                },
+              },
+            ],
+      },
+    },
     'gatsby-transformer-remark',
     'gatsby-plugin-smoothscroll'
   ],
