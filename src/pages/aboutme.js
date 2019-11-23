@@ -32,7 +32,7 @@ const AboutMe = props => (
             on, as well as some of the shots I've taken during the last months.
           </p>
           <p>
-            My passion from programming started a couple years ago, after
+            My passion for programming started a couple years ago, after
             accidentally finding a Python instruction course on YouTube. Ever
             since I have been trying to learn new languages, concepts, and
             technologies. What amazes me most about computer science, is how
@@ -42,7 +42,7 @@ const AboutMe = props => (
           <p>
             If you want to get to know me better, plase feel free to explore
             this website, and have a look at my recent blog posts, where I share
-            whats I am up to and my opinions on various topics.
+            what I am up to and my opinions on various topics.
           </p>
           <a href="/" className="button special">
             Back home
