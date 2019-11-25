@@ -27,27 +27,16 @@ module.exports = {
         }
     },
     {
-      resolve: 'gatsby-remark-prismjs',
+      resolve: `gatsby-transformer-remark`,
       options: {
-        classPrefix: "language-",
-        noInlineHighlight: false,
-        languageExtensions: [
-              {
-                language: "superscript",
-                extend: "javascript",
-                definition: {
-                  superscript_types: /(SuperType)/,
-                },
-                insertBefore: {
-                  function: {
-                    superscript_keywords: /(superif|superelse)/,
-                  },
-                },
-              },
-            ],
+        plugins: [
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {},
+          },
+        ],
       },
     },
-    'gatsby-transformer-remark',
-    'gatsby-plugin-smoothscroll'
+    'gatsby-plugin-smoothscroll',
   ],
 }
