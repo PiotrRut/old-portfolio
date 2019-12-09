@@ -23,6 +23,13 @@ const Footer = props => (
             <span className="label">My LinkedIn</span>
           </a>
         </li>
+      {/*  <li>
+          <p>|</p>
+        </li>
+        <li>
+          <a href="/policy">Privacy Policy</a>
+        </li>
+        */}
       </ul>
       <ul className="copyright">
         <li>&copy; {new Date().getFullYear()} Piotr Rutkowski</li>

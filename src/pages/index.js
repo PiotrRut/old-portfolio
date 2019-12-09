@@ -19,7 +19,7 @@ class HomeIndex extends React.Component {
             { name: 'description', content: 'Piotr Rutkowski' },
             {
               name: 'keywords',
-              content: 'piotr, rutkowksi, city university, developer',
+              content: 'piotr rutkowski, rutkowksi, city university, developer',
             },
           ]}  >
         </Helmet>
@@ -61,18 +61,6 @@ class HomeIndex extends React.Component {
               <Link to="/gallery" className="link primary"></Link>
             </article>
           </section>
-
-          {/*  <section id="two">
-                        <div className="inner">
-                            <header className="major">
-                                <h2>Placeholder</h2>
-                            </header>
-                            <p>Placeholder</p>
-                            <ul className="actions">
-                                <li><Link to="/404" className="button next">Placeholder</Link></li>
-                            </ul>
-                        </div>
-                    </section> */}
         </div>
       </Layout>
     )
