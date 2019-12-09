@@ -6,7 +6,7 @@ const AboutMe = props => (
   <Layout>
     <Helmet>
       <title>About me</title>
-      <meta name="description" content="Page about me" />
+      <meta name="description" content="About me" />
     </Helmet>
 
     <div id="main" className="alt">

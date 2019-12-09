@@ -1,36 +1,60 @@
 import React from 'react'
 import Layout from '../components/layout'
+import Helmet from 'react-helmet'
 
-
-class Blog extends React.Component {
-render() {
+const Blog = props => {
+  const posts = props.data.allMarkdownRemark.edges
   return (
-  <Layout>
-    <div id="main" className="alt">
-      <section id="one">
-        <div className="inner">
-          <h1>Blog</h1>
-          <p>
-            Here you can find my recent blog posts about topics I'm interested
-            in, or just my thiughts in general! Enjoy!
-          </p>
+    <Layout>
+      <Helmet>
+        <title>Blog</title>
+        <meta name="description" content="Blog" />
+      </Helmet>
+      <div id="main" className="alt">
+        <section id="one">
+          <div className="inner">
+            <h1>Blog</h1>
+            <p>
+              Here you can find my recent blog posts about topics I'm interested
+              in, or just my thiughts in general! Enjoy!
+            </p>
 
-          <div className="grid-wrapper">
-            <div className="col-4">
-              <div className="box">
-                <h3>
-                  <a href="/blog/first-blogpost">Welcome to my new blog</a>
-                </h3>
-                <p>Tuesday, 19 November 2019</p>
-              </div>
+            <div className="grid-wrapper">
+              {posts.map(post => (
+                <div className="col-4">
+                  <div className="box">
+                    <h3>
+                      <a href={post.node.frontmatter.path}>
+                        {post.node.frontmatter.title}
+                      </a>
+                    </h3>
+                    <p>{post.node.frontmatter.date}</p>
+                  </div>
+                </div>
+            ))}
             </div>
-
+            <a href="/" className="button special">Back home</a>
           </div>
-        </div>
-      </section>
-    </div>
-  </Layout>
-    )
-  }
+        </section>
+      </div>
+    </Layout>
+  )
 }
 export default Blog
+
+export const pageQuery = graphql`
+  query IndexQuery {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+      edges {
+        node {
+          excerpt
+          frontmatter {
+            date(formatString: "D MMMM YYYY")
+            title
+            path
+          }
+        }
+      }
+    }
+  }
+`

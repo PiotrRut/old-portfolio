@@ -1,8 +1,13 @@
 import React from 'react'
 import Layout from '../components/layout'
+import Helmet from 'react-helmet'
 
 const NotFoundPage = () => (
   <Layout>
+    <Helmet>
+      <title>404 NOT FOUND</title>
+      <meta name="description" content="404" />
+    </Helmet>
     <div id="main" className="alt">
         <section id="one">
             <div className="inner">
