@@ -9,4 +9,4 @@ The first few months of the new academic year also presented some challenges. Ne
 
 On the bright side, I managed to do a lot of projects not related to the University in my spare time. I spent a lot of time in the last months honing my React and JavaScript skills to put together this website, as well as a website for my girlfriend's portfolio. I also learnt the Swift language and made an actual [iOS app](https://github.com/PiotrRut/iOS-Stopwatch-App)!
 
-Lastly, I would like to thank [Amelia](https://amelia-panella.netlify.com), [Josh](https://joshboddy.com), [Reece](http://reecemercer.dev) and [Beatriz](https://twitter.com/mbeatrizrsl) for keeping me sane through all this, helping whenever help was needed, and making my uni experience a fun one!
+Lastly, I would like to thank [Amelia](https://amelia-panella.netlify.com), [Josh](https://joshboddy.com), [Reece](http://reecemercer.dev), [Gawtam](https://www.instagram.com/gawtamt/) and [Beatriz](https://twitter.com/mbeatrizrsl) for keeping me sane through all this, helping whenever help was needed, and making my uni experience a fun one!
