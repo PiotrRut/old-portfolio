@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: "Peter Rutkowski - personal website",
+    author: "Piotr Rutkowski",
     description: "My personal website",
-    url: "https://piotr-rutkowski.com"
+    url: "https://piotr-rutkowski.com",
+    keywords: "piotr rutkowski, piotr, rutkowski, london, city university, piotr rutkowski.com,"
   },
   plugins: [
     {
