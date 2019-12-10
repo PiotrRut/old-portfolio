@@ -17,12 +17,11 @@ const Projects = props => (
             <h2>Welcome to my projects page!</h2>
           </header>
           <p>
-            Here you will find a selection of some of the programming projects
-            that I've made in the past, along with descriptions and my own
-            thoughts and reflections on them. There are also links to GitHub
-            repositories for all of the projects, where you can look throught
-            the code, read the information or even run the code yourself to see
-            how it works.
+            Here you will find some of the programming projects
+            that I've made in the past, along with short descriptions and my own
+            thoughts and reflections on them. To learn more about them, go through
+            the code or even run some of them on your own machine, click on any
+            of the links that will take you straight to their GitHub repositories.
           </p>
         </div>
       </section>

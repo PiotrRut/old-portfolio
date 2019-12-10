@@ -33,7 +33,7 @@ class HomeIndex extends React.Component {
             >
               <header className="major">
                 <h3>About Me</h3>
-                <p>Learn something about me</p>
+                <p>Learn more about me</p>
               </header>
               <Link to="/aboutme" className="link primary"></Link>
             </article>
@@ -41,7 +41,7 @@ class HomeIndex extends React.Component {
               <header className="major">
                 <h3>Projects</h3>
                 <p>
-                  See some of my programming projects and go in depth with them
+                  See and explore the projects I work on
                 </p>
               </header>
               <Link to="/projects" className="link primary"></Link>
@@ -56,7 +56,7 @@ class HomeIndex extends React.Component {
             <article style={{ backgroundImage: `url(${pic04})` }}>
               <header className="major">
                 <h3>Art gallery</h3>
-                <p>See some of my favourite shots done by me</p>
+                <p>See some of my favourite shots</p>
               </header>
               <Link to="/gallery" className="link primary"></Link>
             </article>

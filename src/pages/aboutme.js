@@ -29,7 +29,8 @@ const AboutMe = props => (
             I dedicate a lot of time to photography. I've been taking pictures
             since I can remember, and the website you're currently on, doubles
             as my portfolio. Here you can browse the projects I've been working
-            on, as well as some of the shots I've taken during the last months.
+            on, as well as some of the shots I've taken during the last months
+            (gallery coming really soon).
           </p>
           <p>
             My passion for programming started a couple years ago, after

@@ -16,7 +16,7 @@ const Blog = props => {
             <h1>Blog</h1>
             <p>
               Here you can find my recent blog posts about topics I'm interested
-              in, or just my thiughts in general! Enjoy!
+              in, or just my thoughts in general! Enjoy!
             </p>
 
             <div className="grid-wrapper">
