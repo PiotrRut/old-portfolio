@@ -1,5 +1,8 @@
 import React from 'react'
 import scrollTo from 'gatsby-plugin-smoothscroll';
+import Img from 'gatsby-image'
+import { graphql } from 'gatsby'
+import Layout from '../components/layout'
 
 const Banner = (props) => (
     <section id="banner" className="major">

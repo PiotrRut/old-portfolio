@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link, graphql } from 'gatsby'
+import Img from 'gatsby-image'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
@@ -10,9 +11,7 @@ import pic04 from '../assets/images/pic04.jpg'
 import projects_background from '../assets/images/projects_background.jpg'
 import blog_bg from '../assets/images/blog_bg.jpg'
 
-class HomeIndex extends React.Component {
-  render() {
-    return (
+const HomeIndex  = (props) => (
       <Layout>
         <Helmet
           title="Piotr Rutkowski"
@@ -65,7 +64,6 @@ class HomeIndex extends React.Component {
         </div>
       </Layout>
     )
-  }
-}
+
 
 export default HomeIndex
