@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
+
 import qcCp9QNURpuz15jBSRoKSA_thumb_8f from '../assets/images/qcCp9QNURpuz15jBSRoKSA_thumb_8f.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 import projects_background from '../assets/images/projects_background.jpg'

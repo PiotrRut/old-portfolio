@@ -41,7 +41,7 @@ const AboutMe = props => (
             knowledge of it.
           </p>
           <p>
-            If you want to get to know me better, plase feel free to explore
+            If you want to get to know me better, feel free to explore
             this website, and have a look at my recent blog posts, where I share
             what I am up to and my opinions on various topics.
           </p>

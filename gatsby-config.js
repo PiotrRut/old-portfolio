@@ -4,7 +4,8 @@ module.exports = {
     author: "Piotr Rutkowski",
     description: "My personal website",
     url: "https://piotr-rutkowski.com",
-    keywords: "piotr rutkowski, piotr, rutkowski, london, city university, piotr rutkowski.com,"
+    keywords: "piotr rutkowski, piotr, rutkowski, london, city university, piotr rutkowski.com",
+    image: "../assets/images/qcCp9QNURpuz15jBSRoKSA_thumb_8f.jpg",
   },
   plugins: [
     {
