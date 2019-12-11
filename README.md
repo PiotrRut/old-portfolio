@@ -10,6 +10,7 @@ Once on the website, others can read some basic information about me, read my bl
 
 ## :rocket: Performance
 Below shown the results from running a Lighthouse Audit
+
 ![](src/assets/images/lighthouse.png)
 
 ## :date: Future plans
