@@ -8,6 +8,10 @@ Once on the website, others can read some basic information about me, read my bl
 * ReactJS and GatsbyJS at the front end
 * SCSS for styling
 
+## :rocket: Performance
+Below shown the results from running a Lighthouse Audit
+![](src/assets/images/lighthouse.png)
+
 ## :date: Future plans
 In the works is currently a function that will display all my active repository along with links and description on the website using the GitHub API, as well as a gallery with photographs that I have taken over the years.
 
