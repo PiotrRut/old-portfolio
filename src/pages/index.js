@@ -44,7 +44,7 @@ const HomeIndex  = (props) => (
                   See and explore the projects I work on
                 </p>
               </header>
-              <Link to="/projects" className="link primary"></Link>
+              <Link to="/myprojects" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${blog_bg})` }}>
               <header className="major">

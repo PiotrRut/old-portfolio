@@ -23,6 +23,14 @@ const Footer = props => (
             <span className="label">My LinkedIn</span>
           </a>
         </li>
+        <li>
+          <a
+            href="https://instagram.com/prutkowskii"
+            className="icon fa-instagram"
+          >
+            <span className="label">My Photography Instagram</span>
+          </a>
+        </li>
       {/*  <li>
           <p>|</p>
         </li>
