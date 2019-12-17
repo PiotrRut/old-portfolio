@@ -49,8 +49,8 @@ class MyProjects extends React.Component {
                 made in the past. To learn more about them, go
                 through the code or even run some of them on your own machine, you can
                 visit their GitHub repositories by clicking on them! <b>You
-                can also click the 'Clone' button to copy the clone link for any
-                of the repositories!</b>
+                can also click the 'Clone' button, which will copy the clone link
+                to your clipboard!</b>
               </p>
               <p>
                 This page is automatically updated via calls to the GitHub API.
