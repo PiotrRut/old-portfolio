@@ -2,12 +2,14 @@ import React from 'react'
 import Layout from '../components/layout'
 import Helmet from 'react-helmet'
 import { GoCode } from 'react-icons/go'
+import { CopyToClipboard } from 'react-copy-to-clipboard'
 
 class MyProjects extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
       repos: [],
+      copied: false,
     }
   }
 
@@ -22,6 +24,14 @@ class MyProjects extends React.Component {
       })
       .catch(console.log)
   }
+
+  onChange = ({target: {value}}) => {
+    this.setState({value, copied: false});
+  };
+
+  onCopy = () => {
+    this.setState({copied: true});
+  };
 
   render() {
     return (
@@ -38,7 +48,9 @@ class MyProjects extends React.Component {
                 Here you will find some of the programming projects that I have
                 made in the past. To learn more about them, go
                 through the code or even run some of them on your own machine, you can
-                visit their GitHub repositories by clicking on them!
+                visit their GitHub repositories by clicking on them! <b>You
+                can also click the 'Clone' button to copy the clone link for any
+                of the repositories!</b>
               </p>
               <p>
                 This page is automatically updated via calls to the GitHub API.
@@ -52,8 +64,10 @@ class MyProjects extends React.Component {
                         <a href={repo.html_url}>{repo.name}</a>
                       </h3>
                       <p>{repo.description}</p>
-                      <p>
-                        <GoCode /> {repo.language}
+                      <p><GoCode /> {repo.language} -
+                      <CopyToClipboard onCopy={this.onCopy} text={repo.clone_url}>
+                        <a> Clone</a>
+                      </CopyToClipboard>
                       </p>
                     </div>
                   </div>
