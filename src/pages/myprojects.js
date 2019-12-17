@@ -28,18 +28,17 @@ class MyProjects extends React.Component {
       <Layout>
         <Helmet>
           <title>Projects</title>
-          <meta name="description" content="Blog" />
+          <meta name="description" content="My Projects" />
         </Helmet>
         <div id="main" className="alt">
           <section id="one">
             <div className="inner">
               <h1>My Projects</h1>
               <p>
-                Here you will find some of the programming projects that I've
-                made in the past, along with short descriptions and my own
-                thoughts and reflections on them. To learn more about them, go
-                through the code or even run some of them on your own machine by
-                clicking on any of them.
+                Here you will find some of the programming projects that I have
+                made in the past. To learn more about them, go
+                through the code or even run some of them on your own machine, you can
+                visit their GitHub repositories by clicking on them!
               </p>
               <p>
                 This page is automatically updated via calls to the GitHub API.
