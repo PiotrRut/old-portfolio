@@ -38,12 +38,20 @@ const AboutMe = props => (
             since I have been trying to learn new languages, concepts, and
             technologies. What amazes me most about computer science, is how
             vast it really is, and how much you can do with even a slight
-            knowledge of it.
+            knowledge of it. At the moment I am fluent or experienced in several
+            languages:
           </p>
+          <ul>
+            <li>Swift</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>C++</li>
+          </ul>
           <p>
-            If you want to get to know me better, feel free to explore
-            this website, and have a look at my recent blog posts, where I share
-            what I am up to and my opinions on various topics.
+            If you want to get to know me better, feel free to explore this
+            website, and have a look at my recent blog posts, where I share what
+            I am up to and my opinions on various topics.
           </p>
           <a href="/" className="button special">
             Back home

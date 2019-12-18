@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import { GoCode } from 'react-icons/go'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 
+
 class MyProjects extends React.Component {
   constructor(props) {
     super(props)
@@ -32,6 +33,7 @@ class MyProjects extends React.Component {
   onCopy = () => {
     this.setState({copied: true});
   };
+
 
   render() {
     return (
