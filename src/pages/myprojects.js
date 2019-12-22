@@ -5,6 +5,8 @@ import { GoCode } from 'react-icons/go'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 
 
+
+
 class MyProjects extends React.Component {
   constructor(props) {
     super(props)
@@ -68,7 +70,7 @@ class MyProjects extends React.Component {
                       <p>{repo.description}</p>
                       <p><GoCode /> {repo.language} -
                       <CopyToClipboard onCopy={this.onCopy} text={repo.clone_url}>
-                        <a> Clone</a>
+                        <a href="javascript:;"> Clone</a>
                       </CopyToClipboard>
                       </p>
                     </div>
