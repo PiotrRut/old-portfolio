@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import Helmet from 'react-helmet'
 import { GoCode } from 'react-icons/go'
+import { MdGrade } from "react-icons/md";
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 
 
@@ -68,10 +69,12 @@ class MyProjects extends React.Component {
                         <a href={repo.html_url}>{repo.name}</a>
                       </h3>
                       <p>{repo.description}</p>
-                      <p><GoCode /> {repo.language} -
-                      <CopyToClipboard onCopy={this.onCopy} text={repo.clone_url}>
-                        <a href="javascript:;"> Clone</a>
-                      </CopyToClipboard>
+                      <p>
+                        <MdGrade /> {repo.stargazers_count} &nbsp;
+                        <GoCode /> {repo.language} -
+                        <CopyToClipboard onCopy={this.onCopy} text={repo.clone_url}>
+                          <a href="javascript:;"> Clone</a>
+                        </CopyToClipboard>
                       </p>
                     </div>
                   </div>
