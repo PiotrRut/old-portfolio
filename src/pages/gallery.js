@@ -13,6 +13,9 @@ const Gallery = () => (
             <div className="inner">
                 <h1>In progress...</h1>
                 <p>The gallery will be up and live soon! Stay tuned!</p>
+                <p>In the meantine, visit my photography <a href="https://www.instagram.com/prutkowskii/">Instagram</a> account,
+                where I post my recent shots!!
+                </p>
             </div>
         </section>
     </div>
