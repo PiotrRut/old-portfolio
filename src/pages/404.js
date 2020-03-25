@@ -11,8 +11,8 @@ const NotFoundPage = () => (
     <div id="main" className="alt">
         <section id="one">
             <div className="inner">
-                <h1>404 - PAGE NOT FOUND</h1>
-                <p>You just hit a route that doesn't exist...</p>
+                <h1>404 - PAGE NOT FOUND :(</h1>
+                <p>This page does not exist...how sad.</p>
                 <a href="/" className="button special">Return home</a>
             </div>
         </section>
