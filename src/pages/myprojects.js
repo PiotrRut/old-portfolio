@@ -6,8 +6,6 @@ import { MdGrade } from "react-icons/md";
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 
 
-
-
 class MyProjects extends React.Component {
   constructor(props) {
     super(props)
@@ -50,8 +48,7 @@ class MyProjects extends React.Component {
             <div className="inner">
               <h1>My Projects</h1>
               <p>
-                Here you will find some of the programming projects that I have
-                made in the past. To learn more about them, go
+                Here is a list of all my public projects' repositories. To learn more about them, go
                 through the code or even run some of them on your own machine, you can
                 visit their GitHub repositories by clicking on them! <b>You
                 can also click the 'Clone' button, which will copy the clone link
