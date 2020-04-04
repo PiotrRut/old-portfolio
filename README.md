@@ -18,4 +18,4 @@ In the works is currently a gallery with photographs that I have taken over the 
 Visitors to the website will  have the possibility to filter the photographs by appropriate filters. Search by keywords will be made available, like searching for "London", "January" or "city" on the photographs page will return photographs marked with those keywords, that is photographs taken in the specific location, on the specific date/time/month/year, or containing the object(s) searched for.
 
 ## :globe_with_meridians: Hosting
-Last, but not least, the website is hosted using Netlify, and can be accessed [here](https://piotr-rutkowski.com).
+Last, but not least, the website is hosted using Netlify, and can be accessed [here](https://prutkowski.tech).
