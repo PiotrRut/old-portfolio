@@ -55,7 +55,10 @@ class MyProjects extends React.Component {
                 to your clipboard!</b>
               </p>
               <p>
-                This page is automatically updated via calls to the GitHub API.
+                This page is automatically updated via calls to the GitHub API. 
+                Showing <b>{this.state.repos.length}</b> public repositories.
+              </p>
+              <p>
               </p>
 
               <div className="grid-wrapper">
@@ -67,12 +70,16 @@ class MyProjects extends React.Component {
                       </h3>
                       <p>{repo.description}</p>
                       <p>
-                        <MdGrade /> {repo.stargazers_count} &nbsp;
-                        <GoCode /> {repo.language} -
+                        {repo.language}                 
+                        &nbsp;/&nbsp;
+                        {repo.stargazers_count === 1 ?
+                        `${repo.stargazers_count} Star` :
+                        `${repo.stargazers_count} Stars`
+                        } -&nbsp;
                         <CopyToClipboard onCopy={this.onCopy} text={repo.clone_url}>
-                          <a href="javascript:;"> Clone</a>
+                          <a href="javascript:;">Clone</a>
                         </CopyToClipboard>
-                      </p>
+                      </p> 
                     </div>
                   </div>
                 ))}
