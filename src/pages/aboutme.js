@@ -54,7 +54,7 @@ const AboutMe = props => (
             I am up to and my opinions on various topics.
           </p>
           <a href="/" className="button special">
-            Back home
+            Return home
           </a>
         </div>
       </section>

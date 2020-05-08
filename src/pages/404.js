@@ -12,7 +12,7 @@ const NotFoundPage = () => (
         <section id="one">
             <div className="inner">
                 <h1>404 - PAGE NOT FOUND :(</h1>
-                <p>This page does not exist...how sad.</p>
+                <p>Either I can't code properly, or you can't type ;)</p>
                 <a href="/" className="button special">Return home</a>
             </div>
         </section>

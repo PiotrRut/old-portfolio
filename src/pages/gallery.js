@@ -16,6 +16,9 @@ const Gallery = () => (
                 <p>In the meantine, visit my photography <a href="https://www.instagram.com/prutkowskii/">Instagram</a> account,
                 where I post my recent shots!!
                 </p>
+                <a href="/" className="button special">
+                  Return home
+                </a>
             </div>
         </section>
     </div>

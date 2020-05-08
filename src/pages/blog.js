@@ -33,7 +33,7 @@ const Blog = props => {
                 </div>
             ))}
             </div>
-            <a href="/" className="button special">Back home</a>
+            <a href="/" className="button special">Return home</a>
           </div>
         </section>
       </div>

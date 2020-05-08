@@ -46,6 +46,7 @@ class MyProjects extends React.Component {
         <div id="main" className="alt">
           <section id="one">
             <div className="inner">
+              
               <h1>My Projects</h1>
               <p>
                 Here is a list of all my public projects' repositories. To learn more about them, go
@@ -84,9 +85,11 @@ class MyProjects extends React.Component {
                   </div>
                 ))}
               </div>
+
               <a href="/" className="button special">
-                Back home
+                Return home
               </a>
+
             </div>
           </section>
         </div>
