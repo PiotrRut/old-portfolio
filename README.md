@@ -1,6 +1,6 @@
 # OLD WEBSITE
 This website is not in used anymore, and the repository is therefore archived and read only!  
-The new website's repository can be found [here](https://github.com/PiotrRut/prutkowski.tech).
+The new website's repository can be found [here](https://github.com/PiotrRut/prutkowski.dev).
 
 # Personal website [![Netlify Status](https://api.netlify.com/api/v1/badges/a9571ff7-1655-49c0-accf-16fde0d8d8d2/deploy-status)](https://app.netlify.com/sites/p-rut/deploys)
 
